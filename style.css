@@ -1,3 +1,8 @@
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: #e4b4b4;
+}
 body {
   font-family: "Indie Flower", cursive;
 }
@@ -8,8 +13,8 @@ nav {
   padding: 0px 10px;
 }
 .cfg-logo {
-  height: 150px;
-  width: 150px;
+  height: 175px;
+  width: 175px;
   margin-top: 5px;
 }
 .nav-links {
@@ -22,9 +27,10 @@ nav {
 .nav-links a {
   transition: 0.4s;
   text-decoration: none;
+  color: #bca88e;
 }
 .nav-links a:hover {
-  color: pink;
+  color: #e4b4b4;
 }
 ul {
   padding-inline-start: 0;
@@ -32,13 +38,13 @@ ul {
   font-weight: bolder;
 }
 header {
-  background-color: lightslategray;
+  background-color: #e3e8e9;
 }
 button {
   display: block;
   margin: auto;
-  background: pink;
-  color: white;
+  background: #e4b4b4;
+  color: #bca88e;
   padding: 15px;
   border: 0;
   border-radius: 20px;
@@ -48,7 +54,66 @@ button {
   font-size: 20px;
   font-weight: bolder;
 }
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
 .contact-link {
   text-decoration: none;
   font-family: "Indie Flower", cursive;
+}
+
+.fa-brands {
+  font-size: 30px;
+  transition: color 0.4s ease;
+}
+.fa-brands:hover {
+  color: lightcoral;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+footer {
+  background-color: #e4b4b4;
+  color: #e3e8e9;
+}
+.foot-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container {
+  display: flex;
+}
+img {
+  vertical-align: middle;
+  border-radius: 20px;
+  margin: 20px;
+}
+.first-pic {
+  display: flex;
+  align-items: center;
+}
+.first-pic-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  min-height: 100px;
+  align-items: center;
+}
+.second-pic {
+  display: flex;
+  align-items: center;
+}
+.second-pic-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  min-height: 100px;
+  align-items: center;
 }
