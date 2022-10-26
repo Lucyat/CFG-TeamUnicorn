@@ -1,21 +1,42 @@
+.main {
+  background: linear-gradient(
+    103deg,
+    rgb(225, 180, 180) 0%,
+    rgb(139, 102, 241) 100%
+  );
+}
 h1 {
   text-align: center;
-  font-size: 80px;
-  color: #e4b4b4;
+  font-size: 70px;
+  color: #de703c;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+h2 {
+  text-align: center;
+  font-size: 60px;
+  color: #de703c;
+}
+h3 {
+  color: #e3e8e9;
+  text-align: center;
 }
 body {
   font-family: "Indie Flower", cursive;
 }
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 0px 10px;
+  padding: 0px 5px;
+  max-height: 55px;
 }
 .cfg-logo {
-  height: 175px;
-  width: 175px;
-  margin-top: 5px;
+  height: 150px;
+  width: 150px;
+  margin-top: 1px;
+  padding-left: 20px;
 }
 .nav-links {
   list-style: none;
@@ -27,31 +48,31 @@ nav {
 .nav-links a {
   transition: 0.4s;
   text-decoration: none;
-  color: #bca88e;
+  color: black;
 }
 .nav-links a:hover {
-  color: #e4b4b4;
+  color: #fbb040;
 }
 ul {
   padding-inline-start: 0;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bolder;
 }
 header {
-  background-color: #e3e8e9;
+  background-color: #2f3c4f;
 }
 button {
   display: block;
   margin: auto;
-  background: #e4b4b4;
-  color: #bca88e;
+  background: #506f86;
+  color: #fbb040;
   padding: 15px;
   border: 0;
   border-radius: 20px;
   transition: 200ms;
   text-decoration: none;
   font-family: "Indie Flower", cursive;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bolder;
 }
 button:hover {
@@ -73,8 +94,8 @@ button:hover {
   transition: 0.4s ease-in-out;
 }
 footer {
-  background-color: #e4b4b4;
-  color: #e3e8e9;
+  background-color: #2f3c4f;
+  color: white;
 }
 .foot-icons {
   display: flex;
@@ -102,6 +123,8 @@ img {
   text-align: center;
   min-height: 100px;
   align-items: center;
+  color: #2f3c4f;
+  font-weight: bold;
 }
 .second-pic {
   display: flex;
@@ -116,4 +139,6 @@ img {
   text-align: center;
   min-height: 100px;
   align-items: center;
+  color: #2f3c4f;
+  font-weight: bold;
 }
