@@ -1,0 +1,71 @@
+
+h1{
+  font-size: 60px;
+  color: #FDFF00;
+}
+
+
+body {
+    font-family: "Indie Flower", cursive;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+  }
+
+  .cfg-logo {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    
+    
+  }
+  .nav-links {
+    list-style: none;
+  }
+  .nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .contact-link{
+    display: inline-block;
+  }
+  .nav-links a {
+    transition: 0.4s;
+    text-decoration: none;
+  }
+  .nav-links a:hover {
+    color: pink;
+  }
+  ul {
+    padding-inline-start: 0;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  header {
+    background-color: #2192ff;
+    padding: 20px;
+    text-align: center;
+  }
+  button {
+    display: block;
+    margin: auto;
+    background: pink;
+    color: white;
+    padding: 20px;
+    border: 0;
+    border-radius: 20px;
+    transition: 200ms;
+    text-decoration: none;
+    font-family: "Indie Flower", cursive;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .contact-link {
+    text-decoration: none;
+    font-family: "Indie Flower", cursive;
+  
+  }
