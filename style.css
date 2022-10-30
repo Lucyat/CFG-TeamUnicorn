@@ -145,3 +145,18 @@ img {
 .icons-default {
   color: white;
 }
+.lucy {
+  display: flex;
+}
+.lucyPic {
+  width: 100px;
+  display: flex;
+  text-align: start;
+  padding: 0%;
+  margin: 0;
+}
+.lucy-text {
+  display: flex;
+  text-align: end;
+  padding-top: 20px;
+}
