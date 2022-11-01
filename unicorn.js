@@ -2,8 +2,7 @@
 function whatsYourName () {
 
 return prompt (“Hello! What is your name?”)
-
-
+  
 }
 
 
