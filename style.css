@@ -162,3 +162,21 @@ img {
   justify-content: center;
   padding-top: 20px;
 }
+.tanya {
+  display: flex;
+}
+.tanya-pic {
+  width: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding-left: 75px;
+}
+.tanya-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 100px;
+}
