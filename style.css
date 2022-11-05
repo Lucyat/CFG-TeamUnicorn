@@ -17,6 +17,7 @@ h2 {
   text-align: center;
   font-size: 60px;
   color: #de703c;
+  padding-top: 30px;
 }
 h3 {
   color: #e3e8e9;
@@ -79,7 +80,8 @@ ul {
 }
 
 /* Add a coral background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
   color: #fbb040;
 }
 
@@ -89,7 +91,7 @@ ul {
   position: absolute;
   background-color: #2f3c4f;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -199,7 +201,7 @@ img {
   display: flex;
 }
 .lucyPic {
-  width: 100px;
+  width: 150px;
   display: flex;
   text-align: start;
   justify-content: center;
@@ -208,25 +210,49 @@ img {
 }
 .lucy-text {
   display: flex;
-
   justify-content: center;
-  padding-top: 20px;
+  text-align: center;
+  padding-top: 30px;
 }
 .tanya {
   display: flex;
 }
 .tanya-pic {
-  width: 40px;
+  width: 50px;
   display: flex;
   text-align: center;
   justify-content: center;
-  margin: 0;
-  padding-left: 75px;
+  margin: 10px;
+  padding-left: 80px;
 }
 .tanya-text {
   display: flex;
   text-align: center;
   justify-content: center;
-  padding-top: 20px;
   padding-left: 100px;
+  padding-top: 50px;
+}
+
+.Opeoluwa {
+  display: flex;
+}
+.Opeoluwa-pic {
+  width: 40px;
+  height: 250px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding-left: 50px;
+}
+.Opeoluwa-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.about-background {
+  background-color: #506f86;
 }
