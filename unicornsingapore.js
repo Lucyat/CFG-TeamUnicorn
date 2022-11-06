@@ -7,3 +7,4 @@ if(userAnswer === 'y'){
 }
 else{
     alert("You should visit Singapore!")
+}
