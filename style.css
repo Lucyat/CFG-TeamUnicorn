@@ -256,3 +256,21 @@ img {
 .about-background {
   background-color: #506f86;
 }
+
+.amerah {
+  display: flex;
+}
+.amerahPic {
+  width: 150px;
+  display: flex;
+  text-align: start;
+  justify-content: center;
+  margin: 0;
+  padding: 15px;
+}
+.amerah-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
