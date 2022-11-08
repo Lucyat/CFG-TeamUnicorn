@@ -43,7 +43,7 @@
                  </div>
              </li>
       </ul>
-      <a class="contact-link" href="#"><button>Contact Us</button></a>
+      <a><button id="myBtn" type="button" >Contact Us</button></a>
     </nav>
   </header>
   <body class="main"></body>
@@ -51,15 +51,29 @@
       <div >
         <h2>Our favourite Places </h2>
         <h3>Explore the map and discover our team members recommendations.</h3>
-<P></P>
+
     <center><iframe src="https://www.google.com/maps/d/embed?mid=1nZjGdG22gJhokyAkjU_W0OLb8FQU4q4&hl=en&ehbc=2E312F" width="680" height="500" frameborder="0" style="border:0" allowfullscreen></iframe></center>
     </div>
     <script rel="jarvascript" href="./unicorn.js"></script>
     <script rel="jarvascript" href="./singapore.js"></script>
-  </body>
-  <script rel="jarvascript" href="./unicorn.js"></script>
-  </div>
+  <script>
+ const myBtn = document.getElementById("myBtn");
+
+myBtn.addEventListener("click", function(e){
+const name =prompt ("What is your name?");
+const email=prompt ("what is your email?");
+alert ("Thank you "+ name +" we will be in touch" )
+});
+ 
+</script>
 </body>
+  <script rel="jarvascript" href="./unicorn.js">
+
+  </script>
+  </div>
+   
+</body>
+
   <footer>
    
       <span class="coded-by">   Coded by Team Unicorn </span>
